@@ -382,14 +382,6 @@ article {
     justify-content: center;
     align-items: center;
 }
-.button>p {
-    color: #FFF;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-}
 #NFTs {
     width: 64px;
     height: 48px;
@@ -397,6 +389,14 @@ article {
     border-radius: 15px;
     border: 1px solid #A962FF;
     background: #111;
+}
+#NFTs {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 }
 #NFTs:hover {
     background: #1b1a1a;
@@ -446,6 +446,14 @@ article {
 }
 .DAOs:hover {
     background: #1b1a1a;
+}
+.DeFi, .Payments, .Gaming, .DAOs {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
 }
 figure {
     display: flex;
